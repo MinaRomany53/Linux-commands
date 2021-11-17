@@ -1,0 +1,66 @@
+----------------------------------- Lab (2) ----------------------------------- 
+- CTRL+ALT+T          // open Terminal 
+- pwd                // display current location (Print Working Directory)
+- ls                // list all contents in this folder
+- ls -l            // with more information
+- cd <pass>       // open folder
+- mkdir <name> <name> <name>     // make new folder or folders   
+- mkdir "Mina Romany"                   // to make any directory name with spaces use double quotes  
+- mkdir .HiddenFile                     // to make any directory hidden using (.) before the name
+- ls -a                                 // list all contents in this folder and hidden files  
+- rmdir <name> <name> <name>    // remove folder or folders permanently
+- trash <name>                 // remove folder or folders temporary
+- trash-empty                 // Clean trash from all files
+- mv oldname newname         // Rename the folder    
+-------------------------------------------------------------------------------       
+
+
+----------------------------------- Lab (3) ----------------------------------- 
+- touch                                 // To Create a new File (notebad)  
+- nano <filename>                       // To Create a new File (notebad) and write on it 
+- cat  <filename>                       // Display the contents of the notepad
+- cat > fileName then type space character                       // Delete all notepad contents
+- rm                                    // Remove a file permanently  
+- mv oldname newname                    // Rename the file   
+- cp <copyfile> <newfilepPasted>        // Copy a file or Directory  
+------------------------------------------------------------------------------- 
+
+
+----------------------------------- Lab (4) ----------------------------------- 
+https://www.javatpoint.com/vi-editor
+https://www.guru99.com/the-vi-editor.html
+https://www.tutorialspoint.com/unix/unix-vi-editor.htm
+
+-Command mode:
+* The vi editor opens in this mode, and it only understands commands
+* In this mode, you can, move the cursor and cut, copy, paste the text
+* This mode also saves the changes you have made to the file
+* Commands are case sensitive. You should use the right letter case.
+
+-vi Editor Insert mode:
+* This mode is for inserting text in the file.
+* You can switch to the Insert mode from the command mode by pressing ‘i’ on the keyboard
+* Once you are in Insert mode, any key would be taken as an input for the file on which you are currently working.
+* To return to the command mode and save the changes you have made you need to press the Esc key
+
+- VI Editing commands - 
+- vi <filename_NEW> or <filename_EXISTING>  // To launch the VI Editor
+- i            // Insert at cursor (goes into insert mode input text)
+- ESC         // goes into edit mode (Vi commands)
+- ZZ         // save changes and save file
+- q         // quit without save
+- o         // Open a new line 
+- u        // Undo last change
+- U       // Undo all changes to the entire line
+- dd     // Delete line
+- 3dd   // Delete 3 lines
+- x    // delete a single character
+------------------------------------------------------------------------------- 
+
+
+
+----------------------------------- Lab (5) ----------------------------------- 
+-
+-
+-
+------------------------------------------------------------------------------- 
