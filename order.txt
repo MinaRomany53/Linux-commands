@@ -15,6 +15,7 @@
 -------------------------------------------------------------------------------       
 
 
+
 ----------------------------------- Lab (3) ----------------------------------- 
 - touch                                 // To Create a new File (notebad)  
 - nano <filename>                       // To Create a new File (notebad) and write on it 
@@ -24,6 +25,7 @@
 - mv oldname newname                    // Rename the file   
 - cp <copyfile> <newfilepPasted>        // Copy a file or Directory  
 ------------------------------------------------------------------------------- 
+
 
 
 ----------------------------------- Lab (4) ----------------------------------- 
@@ -60,7 +62,51 @@ https://www.tutorialspoint.com/unix/unix-vi-editor.htm
 
 
 ----------------------------------- Lab (5) ----------------------------------- 
--
--
--
+-Wildcards (play with a set of files at once)
+You can use them with any command such as ls command or rm command to list or remove files
+
+-Three main wildcards in Linux {
+    * - represents zero or more characters
+    ? - represents a single character
+    [] - represents a range of characters
+}
+
+--The Asterisk (*): The (*) wildcard represents any number of unknown characters. This is useful when searching for documents or files but only remembering a part of its name.
+ ls t*        // list all the files names that start with the letter (t)
+ ls text*    // list all the files names that start with the letter (text)
+ ls *-1     // list all the files names that end with the letter (-1)
+
+
+--The Question Mark (?): The (?) wildcard represents only one unknown character. This is useful when you have a list of similarly named files and unsure of a few characters.
+ ls ?e*      // list all the files whose second letter is (e)
+ ls ????-*  // list all the files whose have 4 letters before (-)
+ ls *-?    // list all the files whose have 1 letter After (-)
+
+
+--The Bracketed Characters ([ ]): The ([ ]) wildcard – the 3rd bracket and not the 1st bracket – is used to match any occurrences of characters defined inside the brackets. This option is handy when dealing with uppercase and lowercase files, as we will see later.
+ ls [mt]*    // list all the files whose name either begins with a (m) or (t)
+ ls *[1-9]  // list all the files whose name includes a (digit from 1 to 9)
+ ls [^m-t]*  //  list all the files names that start with any character which is not one of the following
+------------------------------------------------------------------------------- 
+
+
+
+----------------------------------- Lab (6) ----------------------------------- 
+--- Permissions ( Learn to identify and change the permissions of files and directories)
+
+Linux permissions with a file (read, write, execute)
+                                3 Letters to rule them all
+ r read - you may view the contents of the file.
+ w write - you may change the contents of the file.
+ x execute - you may execute or run the file if it is a program or script.
+
+For every file we define 3 sets of people for whom we may specify permissions.
+ - owner - a single person who owns the file. (typically the person who created the file but
+ ownership may be granted to some one else by certain users)
+ - group - every file belongs to a single group.
+ - others - everyone else who is not in the group or the owner.
+
+
+
+
 ------------------------------------------------------------------------------- 
