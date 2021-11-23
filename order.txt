@@ -1,3 +1,5 @@
+https://ryanstutorials.net/linuxtutorial/
+
 ----------------------------------- Lab (2) ----------------------------------- 
 - CTRL+ALT+T          // open Terminal 
 - pwd                // display current location (Print Working Directory)
